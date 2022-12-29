@@ -1,0 +1,7 @@
+I"â<p>ACID Properties is the property of database transactions intended to guarentee validity even in the event of power failure, errors, etc. 
+This has 4 properties
+	1. Atomicity
+	2. Consistency
+	3. Isolation
+	4. Durability</p>
+:ET

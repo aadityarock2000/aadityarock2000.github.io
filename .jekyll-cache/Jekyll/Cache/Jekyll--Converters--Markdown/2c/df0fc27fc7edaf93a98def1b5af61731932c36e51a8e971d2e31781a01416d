@@ -1,0 +1,12 @@
+I"<p>// “Reset” styles and SCSS reusable components
+@import “normalize”;
+@import “mixins”;
+@import “variables”;</p>
+
+<p>// Generic site base &amp; layout styles
+@import “base”;
+@import “layout”;</p>
+
+<p>// Layouts
+@import “resume”;</p>
+:ET

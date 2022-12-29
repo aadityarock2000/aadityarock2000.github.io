@@ -1,0 +1,110 @@
+# Site
+name: 'Aaditya_Parthasarathy'
+description: 'Personal website of Aaditya Parthasarathy, with Blogs and Projects'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+# disqus: 'demowebsite'
+email: 'aadi2000@uw.edu'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    Aaditya:
+      name:           Aaditya Parthasarathy
+      site:           https://github.com/aadityarock2000/
+      avatar:         assets/images/avatar1.jpg
+      # bio:            "Hi, I am Aaditya, a final year undergraduate in engineering, and I am passionalte about all things data. I love learning and sharing my knolwledge to increase my proficiency!"
+      email:          aadityaparthasarathy@gmail.com
+      linkedin:       https://www.linkedin.com/in/aaditya-parthasarathy-7304851a7/
+
+
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: Aaditya Parthasarathy
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+### Resume settings and control
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Aaditya Parthasarathy"
+resume_title:                   "MSDS candidate at University of Washington"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "aadi2000@uw.edu"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "206-396-0068"
+resume_contact_address:         "5041 12th Ave NE, Seattle"
+
+resume_header_contact_info:     "5041 12th Ave NE, Seattle • 206-396-0068 • aadi2000@uw.edu"
+display_header_contact_info:    "True"
+
+resume_header_intro: "<p>I am a graduate student pursuing a Master's degree in Data Science with prior expertise in Data Analytics, Machine Learning, Deep Learning, and Data Visualization. Utilizing the knowledge I've gained from previous experiences in the field over the years, I'm presently seeking internships to master the art of using data science to tackle challenging practical problems.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_recognition:     true
+# resume_section_links:           true
+# resume_section_associations:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/aadityarock2000"
+  # resume_twitter_url:           "http://twitter.com/jglovier"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/aaditya-parthasarathy"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "https://aadityarock2000.github.io/"
+  # resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+

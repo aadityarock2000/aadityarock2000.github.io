@@ -1,0 +1,18 @@
+# Skills
+# Organizational leadership
+- skill: Languages
+  description: Python, SQL, R, Java, JavaScript
+
+# Communications strategy
+- skill: Web Scraping
+  description:  Python requests library, BeautifulSoup 4, Selenium
+
+# Digital content development and creation
+- skill: Machine Learning
+  description: Regression, Classification, Deep Learning, Federated Learning, Natural Language Processing(NLP)
+
+- skill: ML Frameworks / tools
+  description:   TensorFlow, Scikt-learn, NumPy and pandas
+
+- skill:  Data Visualization
+  description:   Tableau, Python matplotlib

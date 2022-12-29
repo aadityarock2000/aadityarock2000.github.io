@@ -1,0 +1,254 @@
+I"SD<p>/<em>! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/** 1. Set default font family to sans-serif. 2. Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. */
+html { font-family: sans-serif; /</em> 1 <em>/ text-size-adjust: 100%; /</em> 2 */ }</p>
+
+<p>/** Remove default margin. */
+body { margin: 0; }</p>
+
+<p>/* HTML5 display definitions ========================================================================== */
+/** Correct <code class="language-plaintext highlighter-rouge">block</code> display not defined for any HTML5 element in IE 8/9. Correct <code class="language-plaintext highlighter-rouge">block</code> display not defined for <code class="language-plaintext highlighter-rouge">details</code> or <code class="language-plaintext highlighter-rouge">summary</code> in IE 10/11 and Firefox. Correct <code class="language-plaintext highlighter-rouge">block</code> display not defined for <code class="language-plaintext highlighter-rouge">main</code> in IE 11. */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }</p>
+
+<p>/** 1. Correct <code class="language-plaintext highlighter-rouge">inline-block</code> display not defined in IE 8/9. 2. Normalize vertical alignment of <code class="language-plaintext highlighter-rouge">progress</code> in Chrome, Firefox, and Opera. <em>/
+audio, canvas, progress, video { display: inline-block; /</em> 1 <em>/ vertical-align: baseline; /</em> 2 */ }</p>
+
+<p>/** Prevent modern browsers from displaying <code class="language-plaintext highlighter-rouge">audio</code> without controls. Remove excess height in iOS 5 devices. */
+audio:not([controls]) { display: none; height: 0; }</p>
+
+<p>/** Address <code class="language-plaintext highlighter-rouge">[hidden]</code> styling not present in IE 8/9/10. Hide the <code class="language-plaintext highlighter-rouge">template</code> element in IE 8/9/10/11, Safari, and Firefox &lt; 22. */
+[hidden], template { display: none; }</p>
+
+<p>/* Links ========================================================================== */
+/** Remove the gray background color from active links in IE 10. */
+a { background-color: transparent; }</p>
+
+<p>/** Improve readability of focused elements when they are also in an active/hover state. */
+a:active, a:hover { outline: 0; }</p>
+
+<p>/* Text-level semantics ========================================================================== */
+/** Address styling not present in IE 8/9/10/11, Safari, and Chrome. */
+abbr[title] { border-bottom: 1px dotted; }</p>
+
+<p>/** Address style set to <code class="language-plaintext highlighter-rouge">bolder</code> in Firefox 4+, Safari, and Chrome. */
+b, strong { font-weight: bold; }</p>
+
+<p>/** Address styling not present in Safari and Chrome. */
+dfn { font-style: italic; }</p>
+
+<p>/** Address variable <code class="language-plaintext highlighter-rouge">h1</code> font-size and margin within <code class="language-plaintext highlighter-rouge">section</code> and <code class="language-plaintext highlighter-rouge">article</code> contexts in Firefox 4+, Safari, and Chrome. */
+h1 { font-size: 2em; margin: 0.67em 0; }</p>
+
+<p>/** Address styling not present in IE 8/9. */
+mark { background: #ff0; color: #000; }</p>
+
+<p>/** Address inconsistent and variable font size in all browsers. */
+small { font-size: 80%; }</p>
+
+<p>/** Prevent <code class="language-plaintext highlighter-rouge">sub</code> and <code class="language-plaintext highlighter-rouge">sup</code> affecting <code class="language-plaintext highlighter-rouge">line-height</code> in all browsers. */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }</p>
+
+<p>sup { top: -0.5em; }</p>
+
+<p>sub { bottom: -0.25em; }</p>
+
+<p>/* Embedded content ========================================================================== */
+/** Remove border when inside <code class="language-plaintext highlighter-rouge">a</code> element in IE 8/9/10. */
+img { border: 0; }</p>
+
+<p>/** Correct overflow not hidden in IE 9/10/11. */
+svg:not(:root) { overflow: hidden; }</p>
+
+<p>/* Grouping content ========================================================================== */
+/** Address margin not present in IE 8/9 and Safari. */
+figure { margin: 1em 40px; }</p>
+
+<p>/** Address differences between Firefox and other browsers. */
+hr { box-sizing: content-box; height: 0; }</p>
+
+<p>/** Contain overflow in all browsers. */
+pre { overflow: auto; }</p>
+
+<p>/** Address odd <code class="language-plaintext highlighter-rouge">em</code>-unit font size rendering in all browsers. */
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }</p>
+
+<p>/* Forms ========================================================================== <em>/
+/** Known limitation: by default, Chrome and Safari on OS X allow very limited styling of <code class="language-plaintext highlighter-rouge">select</code>, unless a <code class="language-plaintext highlighter-rouge">border</code> property is set. */
+/** 1. Correct color not being inherited. Known issue: affects color of disabled elements. 2. Correct font properties not being inherited. 3. Address margins set differently in Firefox 4+, Safari, and Chrome. */
+button, input, optgroup, select, textarea { color: inherit; /</em> 1 <em>/ font: inherit; /</em> 2 <em>/ margin: 0; /</em> 3 */ }</p>
+
+<p>/** Address <code class="language-plaintext highlighter-rouge">overflow</code> set to <code class="language-plaintext highlighter-rouge">hidden</code> in IE 8/9/10/11. */
+button { overflow: visible; }</p>
+
+<p>/** Address inconsistent <code class="language-plaintext highlighter-rouge">text-transform</code> inheritance for <code class="language-plaintext highlighter-rouge">button</code> and <code class="language-plaintext highlighter-rouge">select</code>. All other form control elements do not inherit <code class="language-plaintext highlighter-rouge">text-transform</code> values. Correct <code class="language-plaintext highlighter-rouge">button</code> style inheritance in Firefox, IE 8/9/10/11, and Opera. Correct <code class="language-plaintext highlighter-rouge">select</code> style inheritance in Firefox. */
+button, select { text-transform: none; }</p>
+
+<p>/** 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native <code class="language-plaintext highlighter-rouge">audio</code> and <code class="language-plaintext highlighter-rouge">video</code> controls. 2. Correct inability to style clickable <code class="language-plaintext highlighter-rouge">input</code> types in iOS. 3. Improve usability and consistency of cursor style between image-type <code class="language-plaintext highlighter-rouge">input</code> and others. <em>/
+button, html input[type=”button”], input[type=”reset”], input[type=”submit”] { -webkit-appearance: button; /</em> 2 <em>/ cursor: pointer; /</em> 3 */ }</p>
+
+<p>/** Re-set default cursor for disabled elements. */
+button[disabled], html input[disabled] { cursor: default; }</p>
+
+<p>/** Remove inner padding and border in Firefox 4+. */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }</p>
+
+<p>/** Address Firefox 4+ setting <code class="language-plaintext highlighter-rouge">line-height</code> on <code class="language-plaintext highlighter-rouge">input</code> using <code class="language-plaintext highlighter-rouge">!important</code> in the UA stylesheet. */
+input { line-height: normal; }</p>
+
+<p>/** It’s recommended that you don’t attempt to style these elements. Firefox’s implementation doesn’t respect box-sizing, padding, or width. 1. Address box sizing set to <code class="language-plaintext highlighter-rouge">content-box</code> in IE 8/9/10. 2. Remove excess padding in IE 8/9/10. <em>/
+input[type=”checkbox”], input[type=”radio”] { box-sizing: border-box; /</em> 1 <em>/ padding: 0; /</em> 2 */ }</p>
+
+<p>/** Fix the cursor style for Chrome’s increment/decrement buttons. For certain <code class="language-plaintext highlighter-rouge">font-size</code> values of the <code class="language-plaintext highlighter-rouge">input</code>, it causes the cursor style of the decrement button to change from <code class="language-plaintext highlighter-rouge">default</code> to <code class="language-plaintext highlighter-rouge">text</code>. */
+input[type=”number”]::-webkit-inner-spin-button, input[type=”number”]::-webkit-outer-spin-button { height: auto; }</p>
+
+<p>/** 1. Address <code class="language-plaintext highlighter-rouge">appearance</code> set to <code class="language-plaintext highlighter-rouge">searchfield</code> in Safari and Chrome. 2. Address <code class="language-plaintext highlighter-rouge">box-sizing</code> set to <code class="language-plaintext highlighter-rouge">border-box</code> in Safari and Chrome. <em>/
+input[type=”search”] { -webkit-appearance: textfield; /</em> 1 <em>/ box-sizing: content-box; /</em> 2 */ }</p>
+
+<p>/** Remove inner padding and search cancel button in Safari and Chrome on OS X. Safari (but not Chrome) clips the cancel button when the search input has padding (and <code class="language-plaintext highlighter-rouge">textfield</code> appearance). */
+input[type=”search”]::-webkit-search-cancel-button, input[type=”search”]::-webkit-search-decoration { -webkit-appearance: none; }</p>
+
+<p>/** Define consistent border, margin, and padding. */
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }</p>
+
+<p>/** 1. Correct <code class="language-plaintext highlighter-rouge">color</code> not being inherited in IE 8/9/10/11. 2. Remove padding so people aren’t caught out if they zero out fieldsets. <em>/
+legend { border: 0; /</em> 1 <em>/ padding: 0; /</em> 2 */ }</p>
+
+<p>/** Remove default vertical scrollbar in IE 8/9/10/11. */
+textarea { overflow: auto; }</p>
+
+<p>/** Don’t inherit the <code class="language-plaintext highlighter-rouge">font-weight</code> (applied by a rule above). NOTE: the default cannot safely be changed in Chrome and Safari on OS X. */
+optgroup { font-weight: bold; }</p>
+
+<p>/* Tables ========================================================================== */
+/** Remove most spacing between table cells. */
+table { border-collapse: collapse; border-spacing: 0; }</p>
+
+<p>td, th { padding: 0; }</p>
+
+<ul>
+  <li>{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }</li>
+</ul>
+
+<p>html { background: #fff; }</p>
+
+<p>body { font-family: “Lora”, “Minion Pro”, Palatino, Georgia, serif; color: #333; font-size: 16px; line-height: 1.5; }</p>
+
+<p>.wrapper:before, .wrapper:after { content: “”; display: table; }</p>
+
+<p>.wrapper:after { clear: both; }</p>
+
+<p>.wrapper { max-width: 728px; padding: 0 24px; margin: 0 auto; zoom: 1; }</p>
+
+<p>.group:before, .group:after { content: “”; display: table; }</p>
+
+<p>.group:after { clear: both; }</p>
+
+<p>.group { zoom: 1; /* For IE 6/7 (trigger hasLayout) */ }</p>
+
+<p>::-moz-selection { background: rgba(51, 51, 51, 0.8); color: #fff; text-shadow: none; }</p>
+
+<p>::selection { background: rgba(51, 51, 51, 0.8); color: #fff; text-shadow: none; }</p>
+
+<p>.container { width: 980px; margin-right: auto; margin-left: auto; }</p>
+
+<p>.container:before { display: table; content: “”; }</p>
+
+<p>.container:after { display: table; clear: both; content: “”; }</p>
+
+<p>.columns { margin-right: -10px; margin-left: -10px; }</p>
+
+<p>.columns:before { display: table; content: “”; }</p>
+
+<p>.columns:after { display: table; clear: both; content: “”; }</p>
+
+<p>.column { float: left; padding-right: 10px; padding-left: 10px; }</p>
+
+<p>.one-third { width: 33.333333%; }</p>
+
+<p>.two-thirds { width: 66.666667%; }</p>
+
+<p>.one-fourth { width: 25%; }</p>
+
+<p>.one-half { width: 50%; }</p>
+
+<p>.three-fourths { width: 75%; }</p>
+
+<p>.one-fifth { width: 20%; }</p>
+
+<p>.four-fifths { width: 80%; }</p>
+
+<p>.single-column { padding-right: 10px; padding-left: 10px; }</p>
+
+<p>.table-column { display: table-cell; width: 1%; padding-right: 10px; padding-left: 10px; vertical-align: top; }</p>
+
+<p>.section-header { border-top: 4px solid #c7c7c7; border-bottom: 2px solid #c7c7c7; padding: .2rem 0 .4rem; margin-bottom: 1.5rem; }</p>
+
+<p>.section-header h2 { font-family: “Open Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif; font-weight: 900; font-size: 1.75rem; letter-spacing: -.05rem; margin: 0; }</p>
+
+<p>.page-header { padding: 1.5rem 0; }</p>
+
+<p>.page-header .avatar { width: 95px; max-width: 100%; overflow: hidden; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; margin: 0 auto; display: block; }</p>
+
+<p>.page-header .header-name { font-family: “Open Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif; font-size: 3rem; font-weight: 900; text-align: center; letter-spacing: -.15rem; line-height: 1; margin: 1rem 0 0; }</p>
+
+<p>.page-header .header-contact-info { font-family: “Open Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif; text-align: center; }</p>
+
+<p>.page-header .header-contact-info p a { color: inherit; }</p>
+
+<p>.page-header .title-bar { border-top: 4px solid #c7c7c7; border-bottom: 2px solid #c7c7c7; padding: .2rem 0 .4rem; margin-top: 2rem; padding: .4rem 0; }</p>
+
+<p>.page-header .title-bar:before { display: table; content: “”; }</p>
+
+<p>.page-header .title-bar:after { display: table; clear: both; content: “”; }</p>
+
+<p>.page-header .title-bar .header-title { font-family: “Open Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif; font-weight: 300; font-size: 1.75rem; line-height: 2rem; letter-spacing: -.05rem; text-align: center; margin: 0 0 .5rem; }</p>
+
+<p>@media (min-width: 600px) { .page-header .title-bar .header-title { float: left; margin: 0; } }</p>
+
+<p>@media (min-width: 600px) { .page-header .executive-summary { font-size: 1.125rem; } }</p>
+
+<p>.icon-links { margin: 0; padding: 0; list-style: none; position: relative; top: 4px; text-align: center; border-top: 2px solid #c7c7c7; padding-top: .4rem; }</p>
+
+<p>@media (min-width: 600px) { .icon-links { float: right; border-top: none; padding-top: 0; } }</p>
+
+<p>.icon-links .icon-link-item { display: inline-block; margin-left: 5px; }</p>
+
+<p>.icon-links .icon-link { display: inline-block; }</p>
+
+<p>.icon-links .icon-link:hover .icon path { fill: #333; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; transition: all 0.2s ease; }</p>
+
+<p>.icon-links .icon { height: 28px; }</p>
+
+<p>.contact-button { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background-color: #efefef; text-decoration: none; text-align: center; display: block; margin: 1.5rem auto; width: 220px; font-size: 1.375rem; font-family: “Open Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif; font-weight: 300; color: #333; line-height: 55px; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; transition: all 0.2s ease; }</p>
+
+<p>.contact-button:hover { background-color: #333; color: #fff; }</p>
+
+<p>.contact-button.not-looking { width: 400px; }</p>
+
+<p>.content-section { margin: 0 0 3rem; }</p>
+
+<p>.content-section .resume-item { margin-bottom: 2rem; }</p>
+
+<p>.content-section .resume-item-title { font-family: “Open Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif; font-weight: 700; margin: 0 0 .75rem; font-size: 1.5rem; letter-spacing: -.05rem; line-height: 1; }</p>
+
+<p>.content-section .resume-item-details { font-size: 1.125rem; margin: 0 0 .75rem; line-height: 1; }</p>
+
+<p>.content-section .resume-item-details.award-title { font-size: 1rem; }</p>
+
+<p>.content-section .resume-item-title a, .content-section .resume-item-details a, .content-section .resume-item-copy a, .content-section .resume-item-list a { color: #333; text-decoration: none; border-bottom: 1px solid; }</p>
+
+<p>.content-section .resume-item-title a:hover, .content-section .resume-item-details a:hover, .content-section .resume-item-copy a:hover, .content-section .resume-item-list a:hover { border-bottom: none; color: #9c9c9c; }</p>
+
+<p>.content-section .resume-item-copy { margin: .75rem 0 0; }</p>
+
+<p>.page-footer { border-top: 4px solid #c7c7c7; padding-top: 1.5rem; text-align: center; margin-bottom: 3rem; }</p>
+
+<p>.page-footer .footer-line { margin: 0; font-size: .875rem; color: #999; }</p>
+
+<p>.page-footer .footer-line &gt; a { font-weight: 700; color: #333; }</p>
+
+<p>.print-only { display: none !important; }</p>
+
+<p>@media print { .no-print { display: none !important; } .print-only { display: block !important; } body { font-size: 12px; line-height: 1rem; } .page-header { padding: 1rem 0 .2rem; } .page-header .header-name { font-family: “Open Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 2rem; margin: 0 0 .2rem; } .section-header { border-top: 1px solid #c7c7c7; border-bottom: 1px solid #c7c7c7; padding: .2rem 0 .2rem; margin-bottom: 1rem; } .section-header h2 { font-size: 1.2rem; line-height: 1.5rem; } .content-section { margin: 0 0 1rem; } .content-section .resume-item { margin-bottom: 1rem; } .content-section .resume-item-title { font-size: 16px; line-height: .7em; } .content-section .resume-item-details { font-size: 12px; margin: 0 0 .75rem; line-height: .7em; font-style: italic; } .content-section .resume-item-details.award-title { font-size: 11px; } }</p>
+
+<p>/*# sourceMappingURL=main.css.map */</p>
+:ET

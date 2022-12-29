@@ -1,0 +1,27 @@
+# Jobs
+# Research Intern
+- company: Centre for Advanced Data Science
+  position: Research Intern
+  duration: June 2021 - July 2021
+  summary: <ul class="resume-item-list"><li>Explored Federated Learning and implemented FedAvg and FedProx algorithms using Pysyft to analyze its intricacies.</li><li> Implemented FedAvg using the Flower Framework and demonstrated the ability to deal with a non-IID dataset of MNIST to achieve 98% accuracy</li><li> Implemented Federated Learning for Diabetic retinopathy detection to achieve a Kappa score of 90%.</li></ul>
+
+# Data Scientist Intern
+- company: zMed Healthcare Technologies Pvt Ltd. 
+  position: Data Scientist Intern
+  duration:  March 2021 - May 2021
+  summary: <ul class="resume-item-list"><li>Ideated a deep learning model using GRU for wake word detection for use in hospitals, similar to Google Assistant and Siri.</li><li>Streamlined the data pipelines and automated model development process utilizing more than 4 distinct service providers.</li><li>Developed an automatic voice dataset generator for further development and learning, with a test accuracy of 88.3%.</li></ul>
+
+# Student Intern
+- company: Samsung
+  position: Student Intern
+  duration:   July 2020 - March 2021
+  summary: <ul class="resume-item-list"><li>Spearheaded a team on the topic 'AI-based Supervised Data Generation for Reflection Removal' (NDA Signed).</li><li>The "Reflection Eraser" feature offered currently on 1 Millon+ Samsung phones stemmed from this work.</li></ul>
+
+
+
+
+# <ul class="resume-item-list">
+# <li></li>
+# <li></li>
+# <li></li>
+# </ul>
