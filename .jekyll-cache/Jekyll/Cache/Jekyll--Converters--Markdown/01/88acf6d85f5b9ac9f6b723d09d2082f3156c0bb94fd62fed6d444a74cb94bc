@@ -1,18 +1,12 @@
----
-title: "Projects"
-layout: default
-permalink: "/projects.html"
----
-
-<head>
-  <meta charset="utf-8">
+I"N<head>
+  <meta charset="utf-8" />
 
   <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <!-- Main Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
 
 </head>
 
@@ -24,7 +18,7 @@ permalink: "/projects.html"
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8 text-center">
-				<h2><span class="text-color">"Torture the data, and it will confess to anything."</span> <br>Some of my work is presented here, have a look at them.</h2>
+				<h2><span class="text-color">"Torture the data, and it will confess to anything."</span> <br />Some of my work is presented here, have a look at them.</h2>
 			</div>
 		</div>
 	</div>
@@ -38,10 +32,10 @@ permalink: "/projects.html"
         <div class="row shuffle-wrapper portfolio-gallery">
 
             <!-- PredictiveCricketScores -->
-            <div class="col-lg-6 col-6 mb-4 shuffle-item"  data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
+            <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
                     <div class="position-relative inner-box">
                     <div class="image position-relative ">
-                     <img src="images/portfolio/ipl2.webp" alt="portfolio-image" class="img-fluid w-100 d-block">
+                     <img src="images/portfolio/ipl2.webp" alt="portfolio-image" class="img-fluid w-100 d-block" />
                       <div class="overlay-box">
                         <div class="overlay-inner">
                           <a class="overlay-content" href="https://github.com/aadityarock2000/PredictiveCricketScores">
@@ -56,9 +50,9 @@ permalink: "/projects.html"
             
             <!-- Loan Approval Prediction -->
             <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
-              <div class="position-relative inner-box" >
+              <div class="position-relative inner-box">
                   <div class="image position-relative ">
-                     <img src="images/portfolio/loan2.webp" alt="portfolio-image" class="img-fluid w-100 d-block">
+                     <img src="images/portfolio/loan2.webp" alt="portfolio-image" class="img-fluid w-100 d-block" />
                       <div class="overlay-box">
                         <div class="overlay-inner">
                           <a class="overlay-content" href="https://github.com/aadityarock2000/LoanApprovalPrediction">
@@ -70,33 +64,32 @@ permalink: "/projects.html"
               </div>
             </div>
             </div>
-            
-            <!-- Loan Approval Prediction -->
+        
             <div class="col-lg-46 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
               <div class="position-relative inner-box">
                   <div class="image position-relative ">
-                     <img src="images/portfolio/price.webp" alt="portfolio-image" class="img-fluid w-100 d-block">
+                     <img src="images/portfolio/3.jpg" alt="portfolio-image" class="img-fluid w-100 d-block" />
                       <div class="overlay-box">
                         <div class="overlay-inner">
-                          <a class="overlay-content" href="https://github.com/aadityarock2000/Price-history-analysis">
-                            <h5 class="mb-0">Essential Commodity Analysis</h5>
-                            <p>Data Analysis</p>
+                          <a class="overlay-content" href="portfolio-single.html">
+                            <h5 class="mb-0">Business </h5>
+                            <p>marketing</p>
                           </a>
                         </div>
                       </div> 
                   </div>
               </div>
             </div>
-            <!-- Nuro -->
+        
             <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
               <div class="position-relative inner-box">
                   <div class="image position-relative ">
-                     <img src="images/portfolio/autism.webp" alt="portfolio-image" class="img-fluid w-100 d-block">
+                     <img src="images/portfolio/5.jpg" alt="portfolio-image" class="img-fluid w-100 d-block" />
                       <div class="overlay-box">
                         <div class="overlay-inner">
-                          <a class="overlay-content" href="https://github.com/AchuthanR/nuro">
-                            <h5 class="mb-0">Nuro-Android app for children with ASD</h5>
-                            <p>App development</p>
+                          <a class="overlay-content" href="portfolio-single.html">
+                            <h5 class="mb-0">Portfolio</h5>
+                            <p>Design</p>
                           </a>
                         </div>
                       </div> 
@@ -107,7 +100,7 @@ permalink: "/projects.html"
             <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
               <div class="position-relative inner-box">
                   <div class="image position-relative ">
-                     <img src="images/portfolio/7.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+                     <img src="images/portfolio/7.jpg" alt="portfolio-image" class="img-fluid w-100 d-block" />
                       <div class="overlay-box">
                         <div class="overlay-inner">
                           <a class="overlay-content" href="portfolio-single.html">
@@ -123,7 +116,7 @@ permalink: "/projects.html"
             <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
               <div class="position-relative inner-box">
                   <div class="image position-relative ">
-                     <img src="images/portfolio/6.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+                     <img src="images/portfolio/6.jpg" alt="portfolio-image" class="img-fluid w-100 d-block" />
                       <div class="overlay-box">
                         <div class="overlay-inner">
                           <a class="overlay-content" href="portfolio-single.html">
@@ -158,6 +151,8 @@ permalink: "/projects.html"
 
  <!-- Google Map -->
 <script src="plugins/google-map/map.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script> 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&amp;callback=initMap"></script> 
 <!-- Main Script -->
 <script src="js/script.js"></script>
+</body>
+:ET
