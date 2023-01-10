@@ -47,6 +47,8 @@ defaults:
       
 # Syntax
 markdown: kramdown
+# kramdown:
+#    math_engine: mathjax
 highlighter: rouge
 
 # Paginate

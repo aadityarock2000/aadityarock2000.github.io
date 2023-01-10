@@ -19,6 +19,12 @@ html {
   overflow-x: hidden;
 }
 
+/* To center images in posts */
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
 body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;

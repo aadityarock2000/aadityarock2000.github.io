@@ -25,7 +25,11 @@
     <!-- Main Stylesheet -->
     <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
 
-    
+    {% if page.usemathjax %}
+    <script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    {% endif %}
     
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
     <script
