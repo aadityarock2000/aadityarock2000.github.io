@@ -1,0 +1,118 @@
+I"8<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+        <h1 class="font-weight-bold title h6 text-uppercase mb-4">Tags</h1>
+            
+         
+        <h4 class="font-weight-bold spanborder text-capitalize" id="sticky"><span>sticky</span></h4>
+            
+        
+        
+        
+          
+         
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/Population-and-Sample-in-Statistics/">An Introduction to Population and Sample in Statistics</a>
+	</h2>
+	<p class="excerpt">
+	   This is my first blog attempting to explain statistics utilised by data scientists. In this blog, I explain what the terms ‘population’ and ‘sample’ mean, and how sampling is done in ...
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#statistics">Statistics</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jan 09, 2023
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/Population-and-Sample-in-Statistics/">
+	<img class="w-100" src="/assets/images/demo1.jpg" alt="An Introduction to Population and Sample in Statistics" />
+	</a>
+	</div>
+
+</div>
+          
+        
+        
+        
+        
+
+         
+        <h4 class="font-weight-bold spanborder text-capitalize" id="featured"><span>featured</span></h4>
+            
+        
+        
+        
+          
+         
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/Confidence-Intervals/">Confidence Intervals</a>
+	</h2>
+	<p class="excerpt">
+	   This post discusses about confidence intervals used in statistics.Questions to ask:
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#statistics">Statistics</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jan 20, 2023
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/Confidence-Intervals/">
+	<img class="w-100" src="/assets/images/confidence_intervals_main_image.png" alt="Confidence Intervals" />
+	</a>
+	</div>
+
+</div>
+          
+        
+        
+        
+        
+
+        
+
+        </div>
+        
+            <div class="col-md-4">
+        <div class="sticky-top sticky-top-offset">
+    <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
+    <ol class="list-featured">				
+                        
+            <li class="mb-4">
+            <span>
+                <h6 class="font-weight-bold">
+                    <a href="/Confidence-Intervals/" class="text-dark">Confidence Intervals</a>
+                </h6>
+                <span class="d-block text-muted">
+                    In <span class="catlist">
+                    
+                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#statistics">Statistics</a><span class="sep">, </span>
+                    
+                    </span>
+                </span>
+            </span>
+            </li>                
+           
+    </ol>
+</div>     
+    </div>
+        
+    </div>
+</div>
+:ET

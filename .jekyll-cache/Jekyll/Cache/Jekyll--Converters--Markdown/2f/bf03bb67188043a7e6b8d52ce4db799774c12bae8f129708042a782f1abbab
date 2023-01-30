@@ -1,0 +1,120 @@
+I"Z<p>This post discusses about confidence intervals used in statistics. Look at the questions listed and then read through the notes to understand better!</p>
+
+<hr />
+
+<p><strong>Questions to ask</strong>:</p>
+
+<ol>
+  <li>What are the 2 parts of Inferential statistics?</li>
+  <li>What is Estimation? what are its types?</li>
+  <li>What is point estimation? What are the most common point estimators?</li>
+  <li>What is Sampling Distribution? Is it plotted in real life?</li>
+  <li>What happens when you increase the sample size?</li>
+  <li>What are confidence intervals/interval estimation?</li>
+  <li>What is Standard error? How is it related to confidence interval?</li>
+  <li>What is the central limit theorem?</li>
+  <li>What does 95% confidence interval mean?</li>
+</ol>
+
+<hr />
+
+<p>Statistical Inference can be broken into 2 parts:</p>
+<ol>
+  <li>Estimation
+    <ol>
+      <li>Point Estimation</li>
+      <li>Interval Estimation (confidence intervals)</li>
+    </ol>
+  </li>
+  <li>Hypothesis testing</li>
+</ol>
+
+<p><strong>Estimation</strong></p>
+
+<p>In Estimation, we are concerned with ‘estimating’ the values of specific population parameters. For example, to find the mean weight of adults of a country, we create a sample to ‘estimate’ the mean. The sample mean is the point estimate of the true population mean is that sample mean.</p>
+
+<p>The 2 major point estimates measured are</p>
+<ul>
+  <li>Mean</li>
+  <li>Proportion (percentage of True/desired)</li>
+</ul>
+
+<h3 id="sampling-distribution-of-an-estimator">Sampling Distribution of an Estimator</h3>
+
+<p>Let us assume the task is to find the mean weight of 1000 adults in an office.</p>
+<ul>
+  <li>We take a random sample of 50 people</li>
+  <li>Obtain a sample mean, and plot it in histogram</li>
+  <li>repeat this n times</li>
+</ul>
+
+<p>This leads us to a histogram, where the weight might be distributed from 45 to 95 kgs, with a lot of samples nearing 70Kgs, and decreases either side. This is the sampling distribution.</p>
+
+<p><img src="/post_images/Pasted image 20230108175052.png" alt="Population vs Sample" class="center-image" /></p>
+
+<p><strong>Weight histogram</strong></p>
+
+<blockquote>
+  <p>This is a conceptual model, as in practice, we do not get chances to resample and rework our calculations.</p>
+</blockquote>
+
+<p>Increasing the sample size causes 2 effects:</p>
+<ol>
+  <li>The reduction in the standard error -&gt; reduces the variance in the distribution</li>
+  <li>The distribution/histogram becomes symmetrical and looks like a normal distribution. -&gt; <em>Central limit theorem.</em></li>
+</ol>
+
+<p>Although a point estimate represents our best possible estimate of some true population parameter, it’s unlikely that it will <em>exactly</em> match the population parameter. So, to capture this uncertainty we can create a <strong>confidence interval</strong> – a range of values that is likely to contain a population parameter with a certain level of confidence</p>
+
+<p>![[Pasted image 20230108180640.png]]</p>
+
+<p>We refer to the amount of variability <em>in terms of the uncertainty of the estimate</em>, which can be thought of as the typical amount of error in the estimate (difference between estimate and true unknown parameter). This uncertainty is called the <strong>Standard Error</strong>. Here, <em>Standard error is the Standard deviation of the sampling distribution of the statistic.</em> 
+For a Bernoulli Distribution, the standard error is $\frac{\sqrt{p(1-p)}}{\sqrt{n}}$</p>
+
+<p>Confidence is given my this formula:
+<strong>Confidence Interval</strong> = (point estimate)  +/-  (critical value)*(standard error)
+for example, <strong>Confidence Interval for sample mean=</strong> x  +/-  z(s/√n)</p>
+
+<h2 id="the-central-limit-theorem">The Central Limit Theorem</h2>
+
+<p>As Discussed above, when we increase the sample size, the sampling distribution turns into an approximate normal distribution.</p>
+
+<blockquote>
+  <p>For a sample distribution of a sample proportion, a rule of thumb is that the Central Limit Theorem is approximately observable in the distribution when np&gt;=5 and n(1-p)&gt;=5</p>
+</blockquote>
+
+<p>![[Pasted image 20230108182842.png]]
+For the Sampling Distribution of the Sample Proportion:</p>
+
+<ol>
+  <li><em>Center:</em> The center of the sampling distribution is the population population</li>
+  <li><em>Spread:</em> The width of the sampling distribution decreases as the number of people in our sample increases. The standard deviation of the distribution of samples is equal to $\frac{\sqrt{p(1-p)}}{\sqrt{n}}$ and is called the standard error of the sample proportion</li>
+  <li><em>Shape:</em> If n is large enough, we can appeal to the central limit theorem: the shape of the distribution of the sample proportion is approximately normal</li>
+</ol>
+
+<hr />
+
+<p><strong>Confidence Intervals</strong></p>
+
+<p>Using the Central Limit Theorem and the Standard error, We could work out the range of values that the parameter of interest lies</p>
+
+<ul>
+  <li>A 95% confidence interval means that for 95% of the time, the value would lie within the given range of the confidence interval.</li>
+  <li>As you shrink the interval towards the mean of the sampling distribution, the confidence would decrease.</li>
+</ul>
+
+<p>![[Pasted image 20230108194913.png]]</p>
+
+<p>In other words, the probability of the statistic lying between these intervals would be the confidence interval. For example, if the confidence interval is 95%, and the range is [a,b], then p(a&lt;x&lt;b)=0.95.</p>
+
+<h4 id="confidence-interval-for-a-proportion">Confidence interval for a proportion:</h4>
+
+<p>Confidence Interval = (point estimate)  +/-  (critical value)*(standard error)</p>
+
+<p><strong>Confidence Interval for sample mean=</strong> $\bar{x}\pm z* (\frac{s}{\sqrt(n)})$</p>
+
+<p><strong>Confidence Interval for sample proportion=</strong> $\bar{p}\pm z* \sqrt(\frac{p(1-p)}{n})$ ,</p>
+
+<p>![[Pasted image 20230108200553.png]]</p>
+
+:ET

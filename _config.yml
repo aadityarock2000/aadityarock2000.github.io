@@ -4,7 +4,6 @@ description: 'Personal website of Aaditya Parthasarathy, with Blogs and Projects
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-# disqus: 'demowebsite'
 email: 'aadi2000@uw.edu'
 
 include: ["_pages"]
